@@ -8,16 +8,15 @@ _By: Jenny Chen_
 
 **GitHub** is a server that brings people together in the repositories that was created.
 
-
 ---
 ## Initial Setup
 1. Create an account in [Github](https://github.com/)
 2. Go to [IDE](https://ide.cs50.io/) and to create an account you will need to connect it to your github account. 
 3. To finish setting up go to this [link](https://github.com/hstatsep/ide50).
 
-* While going through the setup in the directions in the link, you may wonder what is an SSH key and why is it important. 
-
-An SSH key is for public or private access to repositories in Github. SSH allows the user to just log on automatically without signing in to their account again. By adding this key it allows you to have access to other repositories easily and faster. If not you will have to keep on log in over again everytime. 
+* While going through the setup in the directions in the link, you may wonder what is an SSH key and why is it important.
+   * An SSH key is for public or private access to repositories in Github. SSH allows the user to just log on automatically without signing in to their account again. 
+   * By adding this key it allows you to have access to other repositories easily and faster. If not you will have to keep on log in over again everytime. 
 
 ---
 ## Repository Setup
@@ -35,7 +34,7 @@ You need to type...
 
         3. git commit 
 
-
+ ! [jjj](https://drive.google.com/file/d/1MLRxWOPK_EAA2KAVOhEsmHZndBqnOfdM/view)
 
 ---
 ## Workflow & Commands
@@ -44,6 +43,28 @@ git status:
 
 ---
 ## Rolling Back Changes
+
+
+
+---
+## Error Handling
+
+
+---
+## Collaboration
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
