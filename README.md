@@ -22,6 +22,10 @@ _By: Jenny Chen_
 ## Repository Setup
 To set up you will need to create a repository.
 
+###### Github
+1. Sign into Github
+2. 
+
 You need to type...
         
         1. git init  
@@ -34,11 +38,11 @@ You need to type...
 
         3. git commit 
 
- ! [jjj](https://drive.google.com/file/d/1MLRxWOPK_EAA2KAVOhEsmHZndBqnOfdM/view)
+! [](https://drive.google.com/file/d/1HBTnqdaTJ2DYZabNCFI6_Ew__sioesVx/view?usp=sharing)
 
 ---
 ## Workflow & Commands
-git status: 
+`git status`
 
 
 ---
