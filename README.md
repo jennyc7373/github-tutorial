@@ -44,11 +44,11 @@ You need to type...
 
 2. `git add` READ.ME
 
-**git add**: is to add all files that have changes to the current repository/entire directory.
+**git add**: 
 
 3. `git commit -m` "message"
 
-**git commit -m**: is to save all the changes you have just made to your local repo(ide) and added with a message telling yourself or other users what changes you made. 
+**git commit -m**: 
 
 4. `git remote add origin`git@github.com:username/repository-name.git
 
