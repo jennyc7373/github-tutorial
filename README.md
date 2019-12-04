@@ -6,7 +6,7 @@ _By: Jenny Chen_
 ## Git vs. GitHub
 **Git** is what people use to create repositories to track their changes.
 
-**GitHub** is a server that brings people together in the repositories that was created.
+**GitHub** is a server that allows many people collaborate to other people's repositories.
 
 ---
 ## Initial Setup
@@ -42,13 +42,13 @@ You need to type...
 **git init**: is to initialize git in your directory for version control.
 * Always _initialize git_ inside a repository and not in a parent directory.
 
-2. `git add` READ.ME
+2. `git add` README.md
 
 **git add**: is to add all files that have changes to the current repository/entire directory.
 
 3. `git commit -m` "message"
 
-**git commit -m**: is to save all the changes you have just made to your local repo(ide) and added with a message telling yourself or other users what changes you made. 
+**git commit -m**: is to save all the changes you have just made in your files to your local repo(ide) and added with a message telling yourself or other users what changes you made. 
 
 4. `git remote add origin`git@github.com:username/repository-name.git
 
@@ -58,7 +58,7 @@ You need to type...
 
 **git push**:send all changes to local repo or can be the opposite.
 
-#### Another way to set up is...
+#### Or another way to set up in your ide is ...
 1. git init
 2. git remote add origin git@github.com:username/repository-name.git
 3. git push -u origin master
@@ -74,6 +74,9 @@ If you want to continue to work in your ide, some commands you will be constantl
    * Another optional command to see which files are staged for the commit (they will be green)
 
 * `git add .`: add the files you create or the files you make changes on your repository
+   * Most errors comes from small mistakes so, always space then a period.
+   * `git add .` is to add all files but if you replace the period with a file name then the focus will be on that file.
+   * `git add .` won't work if there was no commits made.
 * `git commit -m`: to save all the changes you made and leaving a message about what was changed
 * `git push`: push all changes to the remote(Github)
 
@@ -81,10 +84,13 @@ If you want to continue to work in your ide, some commands you will be constantl
 ## Rolling Back Changes
 Sometimes you will make mistakes in ide and to undo it you will be using commands like...
 
-* `git checkout` -- filename is for undoing edits
-* `git reset` HEAD -filename is for undoing adds
-* `git reset` HEAD~1 is for git commit
-* `git revert` for git push
+* To undo edits use `git reset HEAD`(name of edited file you want to undo)
+
+* To undo add use `git reset`(name of the file you added) 
+
+* Undo a commit use `git reset HEAD` 
+
+* Undo a push use `git push origin`  
 
 ---
 ## Error Handling
